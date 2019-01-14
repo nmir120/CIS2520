@@ -1,0 +1,44 @@
+Numan Mir
+1005381
+nmir@uoguelph.ca
+CIS 2520 A3
+November 5th, 2018
+
+Question 1 (q1.c): Run this file with an expression as the command line argument. Make sure to place a \ before every bracket.
+For example: \(\(\(x1+5.12\)*\(x2-7.68\)\)/x3\)
+Choose an from the display menu.
+2 (Preorder) will output /*+x1 5.12  -x2 7.68   x3 for this expression.
+3 (Inorder) will output (((x1+5.12)*(x2-7.68))/x3) for this expression.
+4 (Postorder) will output    x1 5.12+  x2 7.68-* x3/ for this expression.
+7 will exit the program. 
+
+- could not figure out menu options  1, 5, and 6
+- for preorder and postorder method: assumed spaces should be left in output string, so the variables are easier to separate from the values
+- for inorder method: assumed I can just print out the original equation as it is already fully parenthesized and inorder format
+- postorder method: referenced https://stackoverflow.com/questions/1726302/removing-spaces-from-a-string-in-c in creating a small block of code that removes the beginning spaces of the output string to make it more visually appealing
+
+Question 2 (q2.c): File will run, read data from f.dat and display original heap data.
+- could not figure out to do anything else
+Output:
+25 12 17 82 52 53 05 03 68 64 
+43 27 20 59 04 84 10 42 43 02 
+81 14 42 21 09 69 05 30 20 91 
+96 89 75 00 63 24 54 20 20 24 
+41 62 82 46 69 42 74 68 79 28 
+50 09 06 44 59 87 32 36 36 46 
+83 82 43 11 21 04 08 97 93 14 
+03 60 76 23 14 81 82 00 38 04 
+09 83 22 90 74 56 64 75 67 55 
+41 82 53 40 29 84 24 61 87 20 
+99 37 50 93 57 06 29 91 92 39 
+25 41 11 88 15 39 88 69 31 49 
+03 37 97 53 36 54 69 68 38 43 
+44 27 68 96 70 98 85 13 25 47 
+51 90 37 86 42 44 48 64 41 01 
+16 14 27 99 29 99 79 45 59 19 
+88 56 59 88 39 30 44 59 49 72 
+49 17 44 32 33 54 60 33 51 87 
+12 00 68 68 49 68 74 32 09 30 
+81 30 16 65 40 39 44 49 32 60 
+
+
